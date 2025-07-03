@@ -1,0 +1,10 @@
+curl -i\-d '{"emp":{"id":null, "name":"NEW EMP"}}'\-H "Content-Type: application/json"\-X POST http://localhost:8080/employees
+
+curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
+
+curl -d '{"employee":{"id":1, "name":"amit"}}' -H "Content-Type: application/json" -X POST http://localhost:8080/employees
+
+#http://localhost:8080/h2-console/
+#db connection jdbc url jdbc:h2:mem:testdb
+#spring.datasource.url=jdbc:h2:file:C:/users/santosh/test
+
